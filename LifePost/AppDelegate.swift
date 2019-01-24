@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.rootViewController = UINavigationController(rootViewController: MessagesController())
         
-        print("The app started well")
+        print("Started successfully")
         
         return true
     }
